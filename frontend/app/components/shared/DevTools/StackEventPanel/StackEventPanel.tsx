@@ -16,7 +16,7 @@ import { useRegExListFilterMemo, useTabListFilterMemo } from '../useListFilter';
 import useCellMeasurerCache from 'App/hooks/useCellMeasurerCache';
 
 const mapNames = (type: string) => {
-  if (type === 'openreplay') return 'OpenReplay';
+  if (type === 'openreplay') return 'Heimdal';
   return type
 }
 

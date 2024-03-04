@@ -43,4 +43,4 @@ function AlertsView({ siteId }: IAlertsView) {
     );
 }
 
-export default withPageTitle('Alerts - OpenReplay')(AlertsView);
+export default withPageTitle('Alerts - Heimdal')(AlertsView);

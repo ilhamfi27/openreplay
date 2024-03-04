@@ -294,4 +294,4 @@ function AssistStats() {
   );
 }
 
-export default withPageTitle('Reports - OpenReplay')(AssistStats);
+export default withPageTitle('Reports - Heimdal')(AssistStats);

@@ -68,12 +68,12 @@ function IdentifyUsersTab(props: Props) {
           {platform.value === 'web' ? (
             <HighlightCode className="js" text={`tracker.setUserID('john@doe.com');`} />
           ) : (
-            <HighlightCode className="swift" text={`OpenReplay.shared.setUserID('john@doe.com');`} />
+            <HighlightCode className="swift" text={`Heimdal.shared.setUserID('john@doe.com');`} />
           )}
           {platform.value === 'web' ? (
             <div className="flex items-center my-2">
               <Icon name="info-circle" color="gray-darkest" />
-              <span className="ml-2">OpenReplay keeps the last communicated user ID.</span>
+              <span className="ml-2">Heimdal keeps the last communicated user ID.</span>
             </div>
           ) : null}
         </div>
@@ -84,7 +84,7 @@ function IdentifyUsersTab(props: Props) {
             iconBgColor="bg-red-lightest"
             iconColor="red"
           >
-            Make it easy to search and filter replays by user id. OpenReplay allows you to associate
+            Make it easy to search and filter replays by user id. Heimdal allows you to associate
             your internal-user-id with the recording.
           </DocCard>
         </div>
@@ -119,7 +119,7 @@ function IdentifyUsersTab(props: Props) {
                 ) : (
                   <HighlightCode
                     className="swift"
-                    text={`OpenReplay.shared.setMetadata('plan', 'premium');`}
+                    text={`Heimdal.shared.setMetadata('plan', 'premium');`}
                   />
                 )}
               </div>
@@ -152,4 +152,4 @@ function IdentifyUsersTab(props: Props) {
   );
 }
 
-export default withOnboarding(withPageTitle('Identify Users - OpenReplay')(IdentifyUsersTab));
+export default withOnboarding(withPageTitle('Identify Users - Heimdal')(IdentifyUsersTab));

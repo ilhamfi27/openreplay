@@ -30,6 +30,6 @@ const Cont = connect((state: any) => ({
     state.getIn(['user', 'authDetails', 'edition']) === 'ee'
 }))(Assist);
 
-export default withPageTitle('Assist - OpenReplay')(
+export default withPageTitle('Assist - Heimdal')(
   withPermissions(['ASSIST_LIVE'])(withRouter(Cont))
 );

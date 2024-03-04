@@ -53,12 +53,12 @@ export default function withReport<P extends Props>(WrappedComponent: React.Comp
       const doc = new jsPDF('p', 'mm', 'a4');
       const now = new Date().toISOString();
 
-      doc.addMetadata('Author', 'OpenReplay');
-      doc.addMetadata('Title', 'OpenReplay Report');
-      doc.addMetadata('Subject', 'OpenReplay Report');
-      doc.addMetadata('Keywords', 'OpenReplay Report');
-      doc.addMetadata('Creator', 'OpenReplay');
-      doc.addMetadata('Producer', 'OpenReplay');
+      doc.addMetadata('Author', 'Heimdal');
+      doc.addMetadata('Title', 'Heimdal Report');
+      doc.addMetadata('Subject', 'Heimdal Report');
+      doc.addMetadata('Keywords', 'Heimdal Report');
+      doc.addMetadata('Creator', 'Heimdal');
+      doc.addMetadata('Producer', 'Heimdal');
       doc.addMetadata('CreationDate', now);
 
       const parentElement = document.getElementById('report') as HTMLElement;

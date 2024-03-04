@@ -102,11 +102,11 @@ function BugReportModal({ hideModal, session, width, height, account, xrayProps,
         const now = new Date().toISOString();
 
         doc.addMetadata('Author', account.name);
-        doc.addMetadata('Title', 'OpenReplay Bug Report');
-        doc.addMetadata('Subject', 'OpenReplay Bug Report');
-        doc.addMetadata('Keywords', 'OpenReplay Bug Report');
-        doc.addMetadata('Creator', 'OpenReplay');
-        doc.addMetadata('Producer', 'OpenReplay');
+        doc.addMetadata('Title', 'Heimdal Bug Report');
+        doc.addMetadata('Subject', 'Heimdal Bug Report');
+        doc.addMetadata('Keywords', 'Heimdal Bug Report');
+        doc.addMetadata('Creator', 'Heimdal');
+        doc.addMetadata('Producer', 'Heimdal');
         doc.addMetadata('CreationDate', now);
 
         // DO NOT DELETE UNUSED RENDER FUNCTION

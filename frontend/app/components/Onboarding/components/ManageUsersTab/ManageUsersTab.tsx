@@ -62,4 +62,4 @@ function ManageUsersTab(props: Props) {
   );
 }
 
-export default withOnboarding(withPageTitle('Invite Collaborators - OpenReplay')(ManageUsersTab));
+export default withOnboarding(withPageTitle('Invite Collaborators - Heimdal')(ManageUsersTab));

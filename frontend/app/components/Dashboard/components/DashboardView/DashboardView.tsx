@@ -94,6 +94,6 @@ function DashboardView(props: Props) {
   );
 }
 // @ts-ignore
-export default withPageTitle('Dashboards - OpenReplay')(
+export default withPageTitle('Dashboards - Heimdal')(
   withReport(withRouter(withModal(observer(DashboardView))))
 );

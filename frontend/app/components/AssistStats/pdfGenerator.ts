@@ -11,12 +11,12 @@ export const getPdf2 = async () => {
       const doc = new jsPDF('l', 'mm', 'a4');
       const now = new Date().toISOString();
 
-      doc.addMetadata('Author', 'OpenReplay');
-      doc.addMetadata('Title', 'OpenReplay Cobrowsing Report');
-      doc.addMetadata('Subject', 'OpenReplay Cobrowsing Report');
-      doc.addMetadata('Keywords', 'OpenReplay Cobrowsing Report');
-      doc.addMetadata('Creator', 'OpenReplay');
-      doc.addMetadata('Producer', 'OpenReplay');
+      doc.addMetadata('Author', 'Heimdal');
+      doc.addMetadata('Title', 'Heimdal Cobrowsing Report');
+      doc.addMetadata('Subject', 'Heimdal Cobrowsing Report');
+      doc.addMetadata('Keywords', 'Heimdal Cobrowsing Report');
+      doc.addMetadata('Creator', 'Heimdal');
+      doc.addMetadata('Producer', 'Heimdal');
       doc.addMetadata('CreationDate', now);
 
       const el = document.getElementById('pdf-anchor') as HTMLElement;

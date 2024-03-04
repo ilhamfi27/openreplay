@@ -89,7 +89,7 @@ const ProjectCodeSnippet = props  => {
           obscureTextEmails={ gdpr.maskEmails }
         />
       </div>
-      <div className="my-4">You can also setup OpenReplay using <a className="link" href="https://docs.openreplay.com/integrations/google-tag-manager" target="_blank">Google Tag Manager (GTM)</a>. </div>
+      <div className="my-4">You can also setup Heimdal using <a className="link" href="https://docs.openreplay.com/integrations/google-tag-manager" target="_blank">Google Tag Manager (GTM)</a>. </div>
     </div>
   )
 }

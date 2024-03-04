@@ -11,7 +11,7 @@ export default function InternalErrorButton() {
   		onClick={sendWrongEvent}
   		style={{background:'maroon', color: 'white'}}
   	>
-  		{"Crash OpenReplay Tracker"}
+  		{"Crash Heimdal Tracker"}
   	</button>
   );
 }

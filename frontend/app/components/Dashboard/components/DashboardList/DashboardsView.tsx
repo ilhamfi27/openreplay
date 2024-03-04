@@ -12,4 +12,4 @@ function DashboardsView({ history, siteId }: { history: any; siteId: string }) {
   );
 }
 
-export default withPageTitle('Dashboards - OpenReplay')(DashboardsView);
+export default withPageTitle('Dashboards - Heimdal')(DashboardsView);

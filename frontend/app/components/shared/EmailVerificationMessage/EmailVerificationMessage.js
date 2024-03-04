@@ -15,7 +15,7 @@ function EmailVerificationMessage(props) {
   };
   return !sent ? (
     <Tooltip
-      title={`We've sent a verification email to "${email}" please follow the instructions in it to use OpenReplay uninterruptedly.`}
+      title={`We've sent a verification email to "${email}" please follow the instructions in it to use Heimdal uninterruptedly.`}
     >
       <div
         className="mt-3 px-3 rounded-2xl font-medium"

@@ -36,4 +36,4 @@ function Notifications() {
   );
 }
 
-export default withPageTitle('Weekly Report - OpenReplay Preferences')(observer(Notifications))
+export default withPageTitle('Weekly Report - Heimdal Preferences')(observer(Notifications))

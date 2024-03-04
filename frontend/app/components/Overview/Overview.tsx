@@ -54,4 +54,4 @@ function Overview({ match: { params } }: IProps) {
   );
 }
 
-export default withPageTitle('Sessions - OpenReplay')(withRouter(Overview));
+export default withPageTitle('Sessions - Heimdal')(withRouter(Overview));

@@ -155,7 +155,7 @@ export async function screenRecorder(
     toast.error(
       'Screen recording is not permitted by your system and/or browser. Make sure to enable it in your browser as well as in your system settings.'
     );
-    throw new Error('OpenReplay recording: ' + e);
+    throw new Error('Heimdal recording: ' + e);
   }
 }
 

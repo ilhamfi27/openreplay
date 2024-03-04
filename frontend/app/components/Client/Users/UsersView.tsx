@@ -63,4 +63,4 @@ function UsersView(props: Props) {
 export default connect((state: any) => ({
   account: state.getIn(['user', 'account']),
   isEnterprise: state.getIn(['user', 'account', 'edition']) === 'ee',
-}))(withPageTitle('Team - OpenReplay Preferences')(UsersView));
+}))(withPageTitle('Team - Heimdal Preferences')(UsersView));

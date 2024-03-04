@@ -30,4 +30,4 @@ function IntegrationsTab(props: Props) {
   );
 }
 
-export default withOnboarding(withPageTitle("Integrations - OpenReplay")(IntegrationsTab));
+export default withOnboarding(withPageTitle("Integrations - Heimdal")(IntegrationsTab));

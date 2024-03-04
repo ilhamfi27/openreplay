@@ -88,4 +88,4 @@ const Signup: React.FC<SignupProps> = ({ loading, authDetails, fetchTenants, his
   );
 };
 
-export default connector(withRouter(withPageTitle('Signup - OpenReplay')(Signup)));
+export default connector(withRouter(withPageTitle('Signup - Heimdal')(Signup)));

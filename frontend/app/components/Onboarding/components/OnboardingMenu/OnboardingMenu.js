@@ -54,7 +54,7 @@ const OnboardingMenu = (props) => {
 
   return (
     <div>
-        <SideMenuitem title="Install OpenReplay" iconName="tools" active />
+        <SideMenuitem title="Install Heimdal" iconName="tools" active />
         <SideMenuitem title="Identify Users" iconName="tools" active />
         <SideMenuitem title="Invite Collaborators" iconName="tools" active />
         <SideMenuitem title="Integrations" iconName="tools" active />
@@ -62,7 +62,7 @@ const OnboardingMenu = (props) => {
         <>
           <Item
             icon="check"
-            text="Install OpenReplay"
+            text="Install Heimdal"
             completed={activeIndex >= 0}
             active={activeIndex === 0}
             onClick={() => setTab(MENU_ITEMS[0])}

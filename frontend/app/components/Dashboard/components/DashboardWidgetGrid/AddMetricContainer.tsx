@@ -77,7 +77,7 @@ function AddMetricContainer({ siteId, isPopup, onAction }: Props) {
             <AddPredefinedMetric
                 siteId={siteId}
                 title="Ready-Made Metrics"
-                description="Curated metrics predfined by OpenReplay."
+                description="Curated metrics predfined by Heimdal."
             />,
             { right: true }
         );
@@ -98,7 +98,7 @@ function AddMetricContainer({ siteId, isPopup, onAction }: Props) {
             />
             <AddMetricButton
                 title="+ Add Ready-Made Metric"
-                description="Curated metrics predfined by OpenReplay."
+                description="Curated metrics predfined by Heimdal."
                 iconName="grid-check"
                 onClick={onAddPredefinedMetrics}
                 isPopup={isPopup}

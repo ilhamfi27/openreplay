@@ -24,7 +24,7 @@ function ErrorDetails({ className, name = "Error", message, errorStack, sourcema
           className="font-normal flex items-center text-sm font-regular color-red border p-2 rounded"
         >
           <Icon name="info" size="16" color="red" />
-          <div className="ml-2">Source maps must be uploaded to OpenReplay to be able to see stack traces. <a href="#" className="color-red font-medium underline" style={{ textDecoration: 'underline' }} onClick={openDocs}>Learn more.</a></div>
+          <div className="ml-2">Source maps must be uploaded to Heimdal to be able to see stack traces. <a href="#" className="color-red font-medium underline" style={{ textDecoration: 'underline' }} onClick={openDocs}>Learn more.</a></div>
         </div>
       ) }
       <div className="flex items-center my-3">        

@@ -268,7 +268,7 @@ function Storage(props: Props) {
             !hintIsHidden ? (
               <>
                 {
-                  'Inspect your application state while you’re replaying your users sessions. OpenReplay supports '
+                  'Inspect your application state while you’re replaying your users sessions. Heimdal supports '
                 }
                 <a
                   className="underline color-teal"

@@ -6,9 +6,9 @@ import { Step } from './StepList';
 
 const list: Step[] = [
   {
-    title: '🕵️ Install OpenReplay',
+    title: '🕵️ Install Heimdal',
     status: 'pending',
-    description: 'Install OpenReplay on your website or mobile app.',
+    description: 'Install Heimdal on your website or mobile app.',
     icon: 'tools',
   },
   {

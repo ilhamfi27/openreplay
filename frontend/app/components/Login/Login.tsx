@@ -224,6 +224,6 @@ const mapDispatchToProps = {
   fetchTenants,
 };
 
-export default withPageTitle('Login - OpenReplay')(
+export default withPageTitle('Login - Heimdal')(
   connect(mapStateToProps, mapDispatchToProps)(Login)
 );

@@ -3,8 +3,8 @@ import { configService } from 'App/services';
 import { GETTING_STARTED } from 'App/constants/storageKeys';
 
 const stepsMap: any = {
-  'Install OpenReplay': {
-    title: '🛠️ Install OpenReplay',
+  'Install Heimdal': {
+    title: '🛠️ Install Heimdal',
     status: 'pending',
     description: 'Install via script or NPM package',
     docsLink: 'https://docs.openreplay.com/en/sdk/constructor/',

@@ -134,4 +134,4 @@ export default connect(
         save,
         remove,
     }
-)(withPageTitle('Metadata - OpenReplay Preferences')(CustomFields));
+)(withPageTitle('Metadata - Heimdal Preferences')(CustomFields));

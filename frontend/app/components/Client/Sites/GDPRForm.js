@@ -96,7 +96,7 @@ export default class GDPRForm extends React.PureComponent {
                 onChange={ this.onChangeOption }
               />
               { 'Do not record any numeric text' }
-              <div className={ styles.controlSubtext }>{ 'If enabled, OpenReplay will not record or store any numeric text for all sessions.' }</div>
+              <div className={ styles.controlSubtext }>{ 'If enabled, Heimdal will not record or store any numeric text for all sessions.' }</div>
             </label>
           </Form.Field>
 
@@ -109,7 +109,7 @@ export default class GDPRForm extends React.PureComponent {
                 onChange={ this.onChangeOption }
               />
               { 'Do not record email addresses ' }
-              <div className={ styles.controlSubtext }>{ 'If enabled, OpenReplay will not record or store any email address for all sessions.' }</div>
+              <div className={ styles.controlSubtext }>{ 'If enabled, Heimdal will not record or store any email address for all sessions.' }</div>
             </label>
           </Form.Field>
 

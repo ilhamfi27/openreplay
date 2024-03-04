@@ -14,7 +14,7 @@ function SupportModal(props: Props) {
   const { onClose, open } = props;
   const WEBSITE_ID = window.env.CRISP_KEY;
   return (
-    <Drawer title='OpenReplay Support' placement='right' open={open} width={400} onClose={onClose}
+    <Drawer title='Heimdal Support' placement='right' open={open} width={400} onClose={onClose}
             closable={false}>
       <div className='flex flex-col items-center'>
         <div className='border p-3 bg-white flex rounded'>
@@ -24,7 +24,7 @@ function SupportModal(props: Props) {
           <div className='flex flex-col'>
             <Text className='font-medium'>Documentation</Text>
             <Text type='secondary' className='text-sm'>
-              Deploy, manage and customize OpenReplay through quick starts, tutorials, samples, and guides.
+              Deploy, manage and customize Heimdal through quick starts, tutorials, samples, and guides.
             </Text>
             <div className='my-1' />
             <Button type='link' style={{ display: 'flex', justifyContent: 'space-between', padding: '0' }}
@@ -48,7 +48,7 @@ function SupportModal(props: Props) {
           <div className='flex flex-col'>
             <Text className='font-medium'>Slack Community</Text>
             <Text type='secondary' className='text-sm'>
-              Ask OpenReplay community and get quick resolution to your questions from 1000+ members.
+              Ask Heimdal community and get quick resolution to your questions from 1000+ members.
             </Text>
             <div className='my-1' />
             <Button type='link'

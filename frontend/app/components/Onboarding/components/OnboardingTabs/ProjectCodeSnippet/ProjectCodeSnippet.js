@@ -113,7 +113,7 @@ const ProjectCodeSnippet = (props) => {
       </div>
       <div className="ml-10">
         <p>
-          OpenReplay Assist allows you to support your users by seeing their live screen and
+          Heimdal Assist allows you to support your users by seeing their live screen and
           instantly hopping on call (WebRTC) with them without requiring any 3rd-party screen
           sharing software.
         </p>

@@ -32,7 +32,7 @@ function Session({
 	clearCurrentSession,
 	session,
  }: Props) {
- 	usePageTitle("OpenReplay Session Player");
+ 	usePageTitle("Heimdal Session Player");
  	const [ initializing, setInitializing ] = useState(true)
 	const { sessionStore }	= useStore();
 	useEffect(() => {

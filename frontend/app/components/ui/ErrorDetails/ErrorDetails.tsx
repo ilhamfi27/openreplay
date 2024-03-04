@@ -39,7 +39,7 @@ function ErrorDetails(props: Props) {
                 >
                     <Icon name="info" size="16" color="red" />
                     <div className="ml-2">
-                        Source maps must be uploaded to OpenReplay to be able to see stack traces.{' '}
+                        Source maps must be uploaded to Heimdal to be able to see stack traces.{' '}
                         <a href="#" className="color-red font-medium underline" style={{ textDecoration: 'underline' }} onClick={openDocs}>
                             Learn more.
                         </a>

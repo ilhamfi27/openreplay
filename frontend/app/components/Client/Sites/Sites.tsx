@@ -194,4 +194,4 @@ const connector = connect(mapStateToProps, {
   setSiteId,
 });
 
-export default connector(withPageTitle('Projects - OpenReplay Preferences')(Sites));
+export default connector(withPageTitle('Projects - Heimdal Preferences')(Sites));

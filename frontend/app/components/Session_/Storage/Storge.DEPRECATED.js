@@ -246,7 +246,7 @@ export default class Storage extends React.PureComponent {
             subtext={ !hintIsHidden
               ?
                 <>
-                	{'Inspect your application state while you’re replaying your users sessions. OpenReplay supports '}
+                	{'Inspect your application state while you’re replaying your users sessions. Heimdal supports '}
                 	<a className="underline color-teal" href="https://docs.openreplay.com/plugins/redux" target="_blank">Redux</a>{', '}
                 	<a className="underline color-teal" href="https://docs.openreplay.com/plugins/vuex" target="_blank">VueX</a>{', '}
 									<a className="underline color-teal" href="https://docs.openreplay.com/plugins/pinia" target="_blank">Pinia</a>{', '}

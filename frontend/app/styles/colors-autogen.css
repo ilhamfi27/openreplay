@@ -40,6 +40,7 @@
 .fill-borderColor-primary { fill: #3490dc }
 .fill-borderColor-transparent { fill: transparent }
 .fill-transparent { fill: transparent }
+.fill-cyan { fill: #EBF4F5 }
 .fill-figmaColors-accent-secondary { fill: rgba(62, 170, 175, 1) }
 .fill-figmaColors-main { fill: rgba(57, 78, 255, 1) }
 .fill-figmaColors-primary-outlined-hover-background { fill: rgba(62, 170, 175, 0.08) }
@@ -89,6 +90,7 @@
 .hover-fill-borderColor-primary:hover svg { fill: #3490dc }
 .hover-fill-borderColor-transparent:hover svg { fill: transparent }
 .hover-fill-transparent:hover svg { fill: transparent }
+.hover-fill-cyan:hover svg { fill: #EBF4F5 }
 .hover-fill-figmaColors-accent-secondary:hover svg { fill: rgba(62, 170, 175, 1) }
 .hover-fill-figmaColors-main:hover svg { fill: rgba(57, 78, 255, 1) }
 .hover-fill-figmaColors-primary-outlined-hover-background:hover svg { fill: rgba(62, 170, 175, 0.08) }
@@ -140,6 +142,7 @@
 .color-borderColor-primary { color: #3490dc }
 .color-borderColor-transparent { color: transparent }
 .color-transparent { color: transparent }
+.color-cyan { color: #EBF4F5 }
 .color-figmaColors-accent-secondary { color: rgba(62, 170, 175, 1) }
 .color-figmaColors-main { color: rgba(57, 78, 255, 1) }
 .color-figmaColors-primary-outlined-hover-background { color: rgba(62, 170, 175, 0.08) }
@@ -191,6 +194,7 @@
 .hover-borderColor-primary:hover { color: #3490dc }
 .hover-borderColor-transparent:hover { color: transparent }
 .hover-transparent:hover { color: transparent }
+.hover-cyan:hover { color: #EBF4F5 }
 .hover-figmaColors-accent-secondary:hover { color: rgba(62, 170, 175, 1) }
 .hover-figmaColors-main:hover { color: rgba(57, 78, 255, 1) }
 .hover-figmaColors-primary-outlined-hover-background:hover { color: rgba(62, 170, 175, 0.08) }
@@ -241,6 +245,7 @@
 .border-borderColor-primary { border-color: #3490dc }
 .border-borderColor-transparent { border-color: transparent }
 .border-transparent { border-color: transparent }
+.border-cyan { border-color: #EBF4F5 }
 .border-figmaColors-accent-secondary { border-color: rgba(62, 170, 175, 1) }
 .border-figmaColors-main { border-color: rgba(57, 78, 255, 1) }
 .border-figmaColors-primary-outlined-hover-background { border-color: rgba(62, 170, 175, 0.08) }

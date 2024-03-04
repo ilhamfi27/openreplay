@@ -22,7 +22,7 @@ interface Props {
 }
 function CodeSnippet(props: Props) {
     const { host, projectKey, ingestPoint, defaultInputMode, obscureTextNumbers, obscureTextEmails, isAssistEnabled } = props;
-    const codeSnippet = `<!-- OpenReplay Tracking Code for ${host} -->
+    const codeSnippet = `<!-- Heimdal Tracking Code for ${host} -->
 <script>
   var initOpts = {
     projectKey: "${projectKey}",
@@ -33,7 +33,7 @@ function CodeSnippet(props: Props) {
   };
   var startOpts = { userID: "" };
   (function(A,s,a,y,e,r){
-    r=window.OpenReplay=[e,r,y,[s-1, e]];
+    r=window.Heimdal=[e,r,y,[s-1, e]];
     s=document.createElement('script');s.src=A;s.async=!a;
     document.getElementsByTagName('head')[0].appendChild(s);
     r.start=function(v){r.push([0])};

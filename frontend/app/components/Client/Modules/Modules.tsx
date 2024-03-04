@@ -49,7 +49,7 @@ function Modules(props: Props) {
       <div className='bg-white rounded-lg border p-4'>
         <h3 className='text-2xl'>Modules</h3>
         <ul className='mt-3 ml-4 list-disc'>
-          <li>OpenReplay's modules are a collection of advanced features that provide enhanced functionality.</li>
+          <li>Heimdal's modules are a collection of advanced features that provide enhanced functionality.</li>
           <li>Easily enable any desired module within the user interface to access its capabilities</li>
         </ul>
       </div>
@@ -66,7 +66,7 @@ function Modules(props: Props) {
 }
 
 
-export default withPageTitle('Modules - OpenReplay Preferences')(connect((state: any) => ({
+export default withPageTitle('Modules - Heimdal Preferences')(connect((state: any) => ({
   modules: state.getIn(['user', 'account', 'settings', 'modules']) || [],
   isEnterprise: state.getIn(['user', 'account', 'edition']) === 'ee'
 }), { updateModule })(Modules));

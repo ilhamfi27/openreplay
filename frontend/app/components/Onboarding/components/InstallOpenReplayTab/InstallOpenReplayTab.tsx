@@ -75,7 +75,7 @@ function Snippet({ site }: { site: Record<string, any> }) {
   return (
     <>
       <div className="mb-6 text-lg font-medium">
-        Setup OpenReplay through NPM package <span className="text-sm">(recommended)</span> or
+        Setup Heimdal through NPM package <span className="text-sm">(recommended)</span> or
         script.
       </div>
       <OnboardingTabs site={site} />
@@ -83,4 +83,4 @@ function Snippet({ site }: { site: Record<string, any> }) {
   );
 }
 
-export default withOnboarding(withPageTitle('Project Setup - OpenReplay')(InstallOpenReplayTab));
+export default withOnboarding(withPageTitle('Project Setup - Heimdal')(InstallOpenReplayTab));

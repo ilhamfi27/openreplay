@@ -21,7 +21,7 @@ function SideMenu(props: Props) {
       </div>
 
       <SideMenuitem
-        title="Setup OpenReplay"
+        title="Setup Heimdal"
         iconName="tools"
         active={activeTab === OB_TABS.INSTALLING}
         onClick={() => props.onClick(OB_TABS.INSTALLING)}

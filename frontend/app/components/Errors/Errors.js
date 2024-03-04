@@ -43,7 +43,7 @@ function getStatusLabel(status) {
 	applyFilter,
 	editOptions,
 })
-@withPageTitle("Errors - OpenReplay")
+@withPageTitle("Errors - Heimdal")
 export default class Errors extends React.PureComponent {
 	constructor(props) {
 		super(props)

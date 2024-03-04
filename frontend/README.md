@@ -1,5 +1,5 @@
 # openreplay-ui
-OpenReplay prototype UI
+Heimdal prototype UI
 
 On new icon addition:
 `yarn gen:icons`

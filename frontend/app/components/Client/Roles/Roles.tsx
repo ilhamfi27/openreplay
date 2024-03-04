@@ -130,4 +130,4 @@ export default connect(
         };
     },
     { init, edit, fetchList, deleteRole, resetErrors }
-)(withPageTitle('Roles & Access - OpenReplay Preferences')(Roles));
+)(withPageTitle('Roles & Access - Heimdal Preferences')(Roles));

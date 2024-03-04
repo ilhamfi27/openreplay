@@ -20,7 +20,7 @@ function LiveSession({
     clearCurrentSession,
 }) {
     const [initialLoading, setInitialLoading] = React.useState(true);
-    usePageTitle('OpenReplay Assist');
+    usePageTitle('Heimdal Assist');
 
     useEffect(() => {
         clearLogs();

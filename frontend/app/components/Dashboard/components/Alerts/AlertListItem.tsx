@@ -22,7 +22,7 @@ const getThreshold = (threshold: number) => {
 const getNotifyChannel = (alert: Record<string, any>, webhooks: Array<any>) => {
   // @ts-ignore god damn you immutable
   if (webhooks.size === 0) {
-    return 'OpenReplay';
+    return 'Heimdal';
   }
   const getSlackChannels = () => {
     return (
@@ -68,7 +68,7 @@ const getNotifyChannel = (alert: Record<string, any>, webhooks: Array<any>) => {
     str += alert.emailInput.length > 0 ? ' (' + alert.emailInput.join(', ') + ')' : '';
   }
   if (alert.webhook) str += (str === '' ? '' : ' and ') + 'Webhook';
-  if (str === '') return 'OpenReplay';
+  if (str === '') return 'Heimdal';
 
   return str;
 };

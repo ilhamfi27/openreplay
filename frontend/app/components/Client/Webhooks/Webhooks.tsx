@@ -80,4 +80,4 @@ function Webhooks() {
     );
 }
 
-export default withPageTitle('Webhooks - OpenReplay Preferences')(observer(Webhooks));
+export default withPageTitle('Webhooks - Heimdal Preferences')(observer(Webhooks));

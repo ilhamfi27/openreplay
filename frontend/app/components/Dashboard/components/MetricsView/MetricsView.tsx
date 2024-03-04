@@ -16,4 +16,4 @@ function MetricsView({ siteId }: Props) {
   ));
 }
 
-export default withPageTitle('Cards - OpenReplay')(MetricsView);
+export default withPageTitle('Cards - Heimdal')(MetricsView);

@@ -51,5 +51,5 @@ function SessionsListingSettings(props: Props) {
 }
 
 export default connector(
-  withPageTitle('Sessions Listings - OpenReplay Preferences')(SessionsListingSettings)
+  withPageTitle('Sessions Listings - Heimdal Preferences')(SessionsListingSettings)
 );

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><title>OpenReplay</title><style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><title>Heimdal</title><style>
 @keyframes hzaz4m07gsvqr93b72i3pfic_v { 0% { visibility: visible; animation-timing-function: steps(1); } 58.824% { visibility: hidden; animation-timing-function: steps(1); } 100% { visibility: hidden; animation-timing-function: steps(1); } }
 @keyframes hzaz4m07gsvqr93b72i3pfic_do { 0% { stroke-dashoffset: 74px; } 5.882% { stroke-dashoffset: 74px; animation-timing-function: cubic-bezier(0,0,.6,1); } 35.294% { stroke-dashoffset: 0px; } 58.824% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: 0px; } }
 @keyframes f047xdtu4lfmfhg7pu1gw9t8_v { 0% { visibility: hidden; animation-timing-function: steps(1); } 58.824% { visibility: visible; animation-timing-function: steps(1); } 100% { visibility: visible; animation-timing-function: steps(1); } }

@@ -74,4 +74,4 @@ function AuditView() {
     ));
 }
 
-export default withPageTitle('Audit Trail - OpenReplay Preferences')(AuditView);
+export default withPageTitle('Audit Trail - Heimdal Preferences')(AuditView);

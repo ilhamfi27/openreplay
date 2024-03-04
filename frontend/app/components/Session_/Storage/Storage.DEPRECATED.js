@@ -270,7 +270,7 @@ export default class Storage extends React.PureComponent {
               !hintIsHidden ? (
                 <>
                   {
-                    'Inspect your application state while you’re replaying your users sessions. OpenReplay supports '
+                    'Inspect your application state while you’re replaying your users sessions. Heimdal supports '
                   }
                   <a
                     className="underline color-teal"

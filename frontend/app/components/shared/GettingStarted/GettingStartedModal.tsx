@@ -21,7 +21,7 @@ function GettingStartedModal(props: Props) {
       <Modal.Header title="Setup Openreplay">
         <div className="px-4 pt-4">
           <div className="text-2xl">Setup Openreplay</div>
-          <p>Find all the ways in which OpenReplay can benefit you and your product.</p>
+          <p>Find all the ways in which Heimdal can benefit you and your product.</p>
         </div>
       </Modal.Header>
 

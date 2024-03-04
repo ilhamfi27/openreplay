@@ -10,7 +10,7 @@ import Licenses from './Licenses';
 import { connect } from 'react-redux';
 import { PageTitle } from 'UI';
 
-@withPageTitle('Account - OpenReplay Preferences')
+@withPageTitle('Account - Heimdal Preferences')
 @connect((state) => ({
     account: state.getIn(['user', 'account']),
     isEnterprise: state.getIn(['user', 'account', 'edition']) === 'ee',
@@ -24,7 +24,7 @@ export default class ProfileSettings extends React.PureComponent {
                 <div className="flex items-center">
                     <div className={styles.left}>
                         <h4 className="text-lg mb-4">{'Profile'}</h4>
-                        <div className={styles.info}>{'Your email address is your identity on OpenReplay and is used to login.'}</div>
+                        <div className={styles.info}>{'Your email address is your identity on Heimdal and is used to login.'}</div>
                     </div>
                     <div>
                         <Settings />
@@ -81,7 +81,7 @@ export default class ProfileSettings extends React.PureComponent {
                             <div className={styles.left}>
                                 <h4 className="text-lg mb-4">{'Data Collection'}</h4>
                                 <div className={styles.info}>
-                                    {'Enables you to control how OpenReplay captures data on your organization’s usage to improve our product.'}
+                                    {'Enables you to control how Heimdal captures data on your organization’s usage to improve our product.'}
                                 </div>
                             </div>
                             <div>
